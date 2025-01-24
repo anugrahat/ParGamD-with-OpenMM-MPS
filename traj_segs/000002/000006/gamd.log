@@ -1,0 +1,57 @@
+Warning: parameter in XML not found in config. Spelling error? production-only
+Integrator configuration: 5000
+[Restart Mode] Current step = 5000. Overriding nstlim to 10000 using extension-steps=5000.
+Running: 	  5000  steps
+Failure on step 5250
+Particle position is NaN
+stepCount:  5250.0
+windowCount:  0.0
+stage:  2.0
+stageOneIfValueIsZeroOrNegative:  22312500.0
+stageTwoIfValueIsZeroOrNegative:  -20182750.0
+stageThreeIfValueIsZeroOrNegative:  27318250.0
+stageFourIfValueIsZeroOrNegative:  171092250.0
+stageFiveIfValueIsZeroOrNegative:  141317250.0
+Vmax_Dihedral:  nan
+Vmax_Total:  nan
+Vmin_Dihedral:  nan
+Vmin_Total:  nan
+Vavg_Dihedral:  2392.383044078593
+Vavg_Total:  17319446.53399343
+oldVavg_Dihedral:  0.0
+oldVavg_Total:  0.0
+sigmaV_Dihedral:  79.99796012136007
+sigmaV_Total:  13.473644751309921
+M2_Dihedral:  0.0
+M2_Total:  0.0
+wVavg_Dihedral:  0.0
+wVavg_Total:  0.0
+k_Dihedral:  0.0
+k_Total:  0.0
+k0prime_Dihedral:  0.0
+k0prime_Total:  0.0
+k0doubleprime_Dihedral:  0.0
+k0doubleprime_Total:  0.0
+k0doubleprime_window_Dihedral:  0.0
+k0doubleprime_window_Total:  0.0
+boosted_energy_Dihedral:  0.0
+boosted_energy_Total:  0.0
+check_boost_Dihedral:  0.0
+check_boost_Total:  0.0
+threshold_energy_Dihedral:  3288.6139690256437
+threshold_energy_Total:  34639032.83218715
+thermal_energy:  2.494338785445972
+collision_rate:  1.0
+vscale:  0.9980019986673331
+fscale:  0.001998001332666921
+noisescale:  0.09978690801500796
+StartingPotentialEnergy_Dihedral:  nan
+StartingPotentialEnergy_Total:  nan
+ForceScalingFactor_Dihedral:  1.0
+ForceScalingFactor_Total:  1.0
+BoostPotential_Dihedral:  0.0
+BoostPotential_Total:  0.0
+k0_Dihedral:  0.9197764039338001
+k0_Total:  1.0
+sigma0_Total:  25.104
+sigma0_Dihedral:  25.104

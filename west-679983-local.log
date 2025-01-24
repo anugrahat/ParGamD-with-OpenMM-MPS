@@ -1,0 +1,29 @@
+Updating system with the options from the configuration file
+Maximum wallclock time: 1 day, 23:30:00
+
+Fri Jan 24 20:55:22 2025
+Iteration 1 (1000 requested)
+Beginning iteration 1
+4 segments remain in iteration 1 (4 total)
+1 of 1763 (0.056721%) active bins are populated
+per-bin minimum non-zero probability:       1
+per-bin maximum probability:                1
+per-bin probability dynamic range (kT):     0
+per-segment minimum non-zero probability:   0.2
+per-segment maximum non-zero probability:   0.4
+per-segment probability dynamic range (kT): 0.693147
+norm = 1, error in norm = 0 (0*epsilon)
+Waiting for segments to complete...
+-- ERROR    [westpa.core.sim_manager] -- propagation failed for 1 segment(s):
+0
+exception caught; shutting down
+-- ERROR    [w_run] -- error message: propagation failed for 1 segments
+-- ERROR    [w_run] -- Traceback (most recent call last):
+  File "/home/anugraha/.conda/envs/openmm_env/lib/python3.9/site-packages/westpa/cli/core/w_run.py", line 61, in run_simulation
+    sim_manager.run()
+  File "/home/anugraha/.conda/envs/openmm_env/lib/python3.9/site-packages/westpa/core/sim_manager.py", line 764, in run
+    self.check_propagation()
+  File "/home/anugraha/.conda/envs/openmm_env/lib/python3.9/site-packages/westpa/core/sim_manager.py", line 662, in check_propagation
+    raise PropagationError('propagation failed for {:d} segments'.format(len(failed_segments)))
+westpa.core.sim_manager.PropagationError: propagation failed for 1 segments
+

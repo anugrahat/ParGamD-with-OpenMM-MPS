@@ -1,0 +1,81 @@
+
+CPPTRAJ: Trajectory Analysis. V6.18.1 (AmberTools)
+    ___  ___  ___  ___
+     | \/ | \/ | \/ | 
+    _|_/\_|_/\_|_/\_|_
+
+| Date/time: 01/24/25 21:50:43
+| Available memory: 194.278 GB
+
+INPUT: Reading input from 'STDIN'
+  [parm chignolin.prmtop]
+	Reading 'chignolin.prmtop' as Amber Topology
+	Radius Set: ArgH and AspGluO modified Bondi2 radii (mbondi3)
+  [trajin output_restart.dcd]
+	Reading 'output_restart.dcd' as Charmm DCD
+  [reference /home/anugraha/pargamd_openmm/ParGaMD/common_files/chignolin.pdb]
+	Reading '/home/anugraha/pargamd_openmm/ParGaMD/common_files/chignolin.pdb' as PDB
+	Setting active reference for distance-based masks: 'chignolin.pdb'
+  [rms rmsd_ca @CA reference out rmsd_ca.xvg mass]
+    RMSD: (@CA), reference is "chignolin.pdb:1" (@CA), mass-weighted.
+	Best-fit RMSD will be calculated, coords will be rotated and translated.
+  [radgyr rg_ca @CA out rg_ca.xvg]
+    RADGYR: Calculating for atoms in mask @CA.
+  [go]
+---------- RUN BEGIN -------------------------------------------------
+
+PARAMETER FILES (1 total):
+ 0: chignolin.prmtop, 138 atoms, 10 res, box: None, 1 mol
+
+INPUT TRAJECTORIES (1 total):
+ 0: 'output_restart.dcd' is a CHARMM DCD file (coords) Little Endian 32 bit, Parm chignolin.prmtop (reading 3 of 3)
+  Coordinate processing will occur on 3 frames.
+
+REFERENCE FRAMES (1 total):
+    0: chignolin.pdb:1
+	Active reference frame for distance-based masks is 'chignolin.pdb:1'
+
+BEGIN TRAJECTORY PROCESSING:
+.....................................................
+ACTION SETUP FOR PARM 'chignolin.prmtop' (2 actions):
+  0: [rms rmsd_ca @CA reference out rmsd_ca.xvg mass]
+	Target mask: [@CA](10)
+	Reference topology: chignolin.prmtop
+	Reference mask: [@CA](10)
+  1: [radgyr rg_ca @CA out rg_ca.xvg]
+	@CA (10 atoms).
+----- output_restart.dcd (1-3, 1) -----
+ 0% 50% 100% Complete.
+
+Read 3 frames and processed 3 frames.
+TIME: Avg. throughput= 7692.3077 frames / second.
+
+ACTION OUTPUT:
+TIME: Analyses took 0.0000 seconds.
+
+DATASETS (3 total):
+	rmsd_ca "rmsd_ca" (double, rms), size is 3 (0.024 kB)
+	rg_ca "rg_ca" (double), size is 3 (0.024 kB)
+	rg_ca[Max] "rg_ca[Max]" (double), size is 3 (0.024 kB)
+    Total data set memory usage is at least 0.072 kB
+
+DATAFILES (2 total):
+  rmsd_ca.xvg (Standard Data File):  rmsd_ca
+  rg_ca.xvg (Standard Data File):  rg_ca rg_ca[Max]
+
+RUN TIMING:
+TIME:		Init               : 0.0000 s (  0.47%)
+TIME:		Trajectory Process : 0.0004 s ( 15.20%)
+TIME:		Action Post        : 0.0000 s (  0.00%)
+TIME:		Analysis           : 0.0000 s (  0.00%)
+TIME:		Data File Write    : 0.0022 s ( 84.06%)
+TIME:		Other              : 0.0000 s (  0.00%)
+TIME:	Run Total 0.0026 s
+---------- RUN END ---------------------------------------------------
+TIME: Total execution time: 0.0166 seconds.
+--------------------------------------------------------------------------------
+To cite CPPTRAJ use:
+Daniel R. Roe and Thomas E. Cheatham, III, "PTRAJ and CPPTRAJ: Software for
+  Processing and Analysis of Molecular Dynamics Trajectory Data". J. Chem.
+  Theory Comput., 2013, 9 (7), pp 3084-3095.
+

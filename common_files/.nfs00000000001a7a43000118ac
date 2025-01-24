@@ -1,0 +1,33 @@
+Module conda3/4.X loaded.
+
+This module initializes a base conda install in your current shell environment.
+It takes care of `conda init`, and as such, will interfere with locally-installed 
+conda; if you have a local install, it should have warned you and failed to load.
+
+To view available environments, including your local environments and those 
+installed system-wide, use: 
+
+    conda env list
+
+To activate an environment, use: 
+
+    conda activate [ENVIRONMENT_NAME]
+
+To create your own environment, you can use either the `conda` or `mamba` command.
+`mamba` functions exactly the same as `conda`, and uses the same channels, while 
+solving and creating environments much more efficiently. For example, you could create 
+an environment containing python v3.10, pandas, and ipython with: 
+
+    mamba create -n my-pandas-env python=3.10 pandas ipython
+
+and activate it with `conda activate my-pandas-env`.
+
+For more information, see https://conda.io/projects/conda/en/latest/user-guide/getting-started.html#managing-environments.
+Warning: parameter in XML not found in config. Spelling error? production-only
+Integrator configuration: 200000
+Deleting old output directory: ./out23
+Running: 	  435000  steps
+Start Time: 	 Jan-24-2025    16:56:55
+End Time: 	 Jan-24-2025    16:59:55
+Execution rate for this run:   2416.6666666666665  steps per second.
+Daily execution rate:          417.6  ns per day.

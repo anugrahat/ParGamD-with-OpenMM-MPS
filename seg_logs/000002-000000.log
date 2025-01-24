@@ -1,0 +1,490 @@
++ env
++ sort
+ *)
+ *)
+ *v*)
+ *v*)
+ *v*x*)
+ *v*x*)
+ *x*)
+ *x*)
+ ;;
+ ;;
+ ;;
+ ;;
+ ;;
+ ;;
+ ;;
+ ;;
+ IFS=$_mlIFS;
+ IFS=$_mlIFS;
+ IFS=' ';
+ IFS=' ';
+ _mlIFS=$IFS;
+ _mlIFS=$IFS;
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ _mlre="${_mlre:-}${_mlv}='`eval 'echo ${'$_mlrv':-}'`' ";
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ _mlre="${_mlre:-}${_mlv}_modquar='`eval 'echo ${'$_mlv'}'`' ";
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlrv="MODULES_RUNENV_${_mlv}";
+ _mlshdbg=''
+ _mlshdbg=''
+ _mlshdbg='v'
+ _mlshdbg='v'
+ _mlshdbg='vx'
+ _mlshdbg='vx'
+ _mlshdbg='x'
+ _mlshdbg='x'
+ _mlstatus=$?;
+ _mlstatus=$?;
+ case "$-" in 
+ case "$-" in 
+ do
+ do
+ done;
+ done;
+ else
+ else
+ else
+ else
+ esac;
+ esac;
+ eval `/usr/bin/tclsh /software/modules/4.6.1/ucdhpc-20.04/libexec/modulecmd.tcl bash "$@"`;
+ eval `/usr/bin/tclsh /software/modules/4.6.1/ucdhpc-20.04/libexec/modulecmd.tcl bash "$@"`;
+ eval `eval ${_mlre} /usr/bin/tclsh /software/modules/4.6.1/ucdhpc-20.04/libexec/modulecmd.tcl bash '"$@"'`;
+ eval `eval ${_mlre} /usr/bin/tclsh /software/modules/4.6.1/ucdhpc-20.04/libexec/modulecmd.tcl bash '"$@"'`;
+ fi;
+ fi;
+ fi;
+ fi;
+ fi;
+ fi;
+ fi;
+ fi;
+ fi;
+ fi;
+ fi;
+ fi;
+ fi;
+ fi;
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ for _mlv in ${MODULES_RUN_QUARANTINE:-};
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ if [ "${MODULES_SILENT_SHELL_DEBUG:-0}" = '1' ]; then
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ "${_mlv}" = "${_mlv##*[!A-Za-z0-9_]}" -a "${_mlv}" = "${_mlv#[0-9]}" ]; then
+ if [ -n "${IFS+x}" ]; then
+ if [ -n "${IFS+x}" ]; then
+ if [ -n "${_mlIFS+x}" ]; then
+ if [ -n "${_mlIFS+x}" ]; then
+ if [ -n "${_mlre:-}" ]; then
+ if [ -n "${_mlre:-}" ]; then
+ if [ -n "${_mlshdbg:-}" ]; then
+ if [ -n "${_mlshdbg:-}" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ if [ -n "`eval 'echo ${'$_mlv'+x}'`" ]; then
+ return $_mlstatus
+ return $_mlstatus
+ set +v;
+ set +v;
+ set +vx;
+ set +vx;
+ set +x;
+ set +x;
+ set -$_mlshdbg;
+ set -$_mlshdbg;
+ unset IFS;
+ unset IFS;
+ unset _mlre _mlIFS;
+ unset _mlre _mlIFS;
+ unset _mlre _mlv _mlrv _mlIFS;
+ unset _mlre _mlv _mlrv _mlIFS;
+ unset _mlshdbg;
+ unset _mlshdbg;
+AMBERHOME=/software/amber/22/ucdhpc-20.04
+BASH_ENV=/software/modules/4.6.1/ucdhpc-20.04//init/bash
+BASH_FUNC__module_raw%%=() {  unset _mlshdbg;
+BASH_FUNC_ml%%=() {  module ml "$@"
+BASH_FUNC_module%%=() {  unset _mlshdbg;
+CONDA_DEFAULT_ENV=openmm_env
+CONDA_EXE=/software/anaconda3/2020.11/ucdhpc-20.04/bin/conda
+CONDA_PREFIX=/home/anugraha/.conda/envs/openmm_env
+CONDA_PREFIX_1=/software/anaconda3/2020.11/ucdhpc-20.04
+CONDA_PROMPT_MODIFIER=(openmm_env) 
+CONDA_PYTHON_EXE=/software/anaconda3/2020.11/ucdhpc-20.04/bin/python
+CONDA_SHLVL=2
+CPATH=/software/openmpi/4.1.5/ucdhpc-20.04/include:/software/cuda/11.8.0/ucdhpc-20.04/include
+CPATH_modshare=/software/openmpi/4.1.5/ucdhpc-20.04/include:1:/software/cuda/11.8.0/ucdhpc-20.04/include:1
+CPPTRAJ=/software/amber/22/ucdhpc-20.04/bin/cpptraj
+CUDA_HOME=/software/cuda/11.8.0/ucdhpc-20.04
+CUDA_MPS_LOG_DIRECTORY=/tmp/nvidia-log
+CUDA_MPS_PIPE_DIRECTORY=/tmp/nvidia-mps
+CUDA_VISIBLE_DEVICES=0
+CUDA_VISIBLE_DEVICES_ALLOCATED=0
+DISPLAY=localhost:17.0
+ENV=/software/modules/4.6.1/ucdhpc-20.04//init/profile.sh
+ENVIRONMENT=BATCH
+GPU_DEVICE_ORDINAL=0
+GSETTINGS_SCHEMA_DIR=/home/anugraha/.conda/envs/openmm_env/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR_CONDA_BACKUP=
+HOME=/home/anugraha
+HOSTNAME=sapphire-0
+LC_CTYPE=C.UTF-8
+LD_LIBRARY_PATH=/software/amber/22/ucdhpc-20.04/lib:/software/amber/22/ucdhpc-20.04/lib:/software/amber/22/ucdhpc-20.04/lib:/software/openmpi/4.1.5/ucdhpc-20.04/lib:/software/pmix/4.2.6/ucdhpc-20.04/lib:/software/ucx/1.14.1/ucdhpc-20.04/lib:/software/libevent/2.1.12-stable/ucdhpc-20.04/lib:/software/hwloc/2.9.3/ucdhpc-20.04/lib:/software/cuda/11.8.0/ucdhpc-20.04/lib64/stubs:/software/cuda/11.8.0/ucdhpc-20.04/lib64
+LD_LIBRARY_PATH_modshare=/software/ucx/1.14.1/ucdhpc-20.04/lib:1:/software/libevent/2.1.12-stable/ucdhpc-20.04/lib:1:/software/hwloc/2.9.3/ucdhpc-20.04/lib:1:/software/cuda/11.8.0/ucdhpc-20.04/lib64/stubs:1:/software/cuda/11.8.0/ucdhpc-20.04/lib64:1:/software/openmpi/4.1.5/ucdhpc-20.04/lib:1:/software/pmix/4.2.6/ucdhpc-20.04/lib:1
+LOADEDMODULES=cuda/11.8.0:slurm/23.02.7:hwloc/2.9.3:libevent/2.1.12-stable:ucx/1.14.1:pmix/4.2.6:openmpi/4.1.5:amber/22
+LOADEDMODULES_modshare=slurm/23.02.7:1:pmix/4.2.6:1:openmpi/4.1.5:1:amber/22:1:cuda/11.8.0:1:hwloc/2.9.3:1:libevent/2.1.12-stable:1:ucx/1.14.1:1
+LOGNAME=anugraha
+MANPATH=/software/openmpi/4.1.5/ucdhpc-20.04/share/man:/software/slurm/23.02.7/ucdhpc-20.04/share/man:::/opt/puppetlabs/puppet/share/man
+MANPATH_modshare=:1:/software/slurm/23.02.7/ucdhpc-20.04/share/man:1:/software/openmpi/4.1.5/ucdhpc-20.04/share/man:1
+MODULEPATH=/software/modules/4.6.1/ucdhpc-20.04/modulefiles
+MODULEPATH_modshare=/software/modules/4.6.1/ucdhpc-20.04/modulefiles:1
+MODULESHOME=/software/modules/4.6.1/ucdhpc-20.04/
+MODULES_CMD=/software/modules/4.6.1/ucdhpc-20.04/libexec/modulecmd.tcl
+MODULES_LMALTNAME=slurm/23.02.7&slurm/default&slurm:openmpi/4.1.5&openmpi/default&openmpi
+MODULES_LMALTNAME_modshare=openmpi/4.1.5&openmpi/default&openmpi:1:slurm/23.02.7&slurm/default&slurm:1
+MODULES_LMCONFLICT=openmpi/4.1.5&openmpi
+MODULES_LMCONFLICT_modshare=openmpi/4.1.5&openmpi:1
+MODULES_LMNOTUASKED=cuda/11.8.0:hwloc/2.9.3:libevent/2.1.12-stable:ucx/1.14.1:pmix/4.2.6
+MODULES_LMNOTUASKED_modshare=pmix/4.2.6:1:cuda/11.8.0:1:hwloc/2.9.3:1:libevent/2.1.12-stable:1:ucx/1.14.1:1
+MODULES_LMPREREQ=slurm/23.02.7&cuda/11.8.0:openmpi/4.1.5&hwloc/2.9.3&libevent/2.1.12-stable&ucx/1.14.1&pmix/4.2.6:amber/22&cuda/11.8.0
+MODULES_LMPREREQ_modshare=slurm/23.02.7&cuda/11.8.0:1:openmpi/4.1.5&hwloc/2.9.3&libevent/2.1.12-stable&ucx/1.14.1&pmix/4.2.6:1:amber/22&cuda/11.8.0:1
+MOTD_SHOWN=pam
+MPI_ROOT=/software/openmpi/4.1.5/ucdhpc-20.04
+NODELOC=/home/anugraha/pargamd_openmm/ParGaMD/
+OLDPWD=/home/anugraha/pargamd_openmm/ParGaMD
+OPENMPI_HOME=/software/openmpi/4.1.5/ucdhpc-20.04
+OPENMPI_ROOT=/software/openmpi/4.1.5/ucdhpc-20.04
+OPENMPI_VERSION=4.1.5
+PATH=/software/amber/22/ucdhpc-20.04/bin:/software/modules/4.6.1/ucdhpc-20.04//bin:/software/amber/22/ucdhpc-20.04/bin:/home/anugraha/.conda/envs/openmm_env/bin:/software/amber/22/ucdhpc-20.04/bin:/home/anugraha/.conda/envs/openmm_env/bin:/software/anaconda3/2020.11/ucdhpc-20.04/condabin:/software/openmpi/4.1.5/ucdhpc-20.04/bin:/software/hwloc/2.9.3/ucdhpc-20.04/bin:/software/slurm/23.02.7/ucdhpc-20.04/sbin:/software/slurm/23.02.7/ucdhpc-20.04/bin:/software/cuda/11.8.0/ucdhpc-20.04/bin:/software/modules/4.6.1/ucdhpc-20.04/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/puppetlabs/bin:/home/anugraha/.conda/envs/myenv/bin:/home/anugraha/bin:/home/anugraha/bin
+PATH_modshare=/usr/bin:1:/software/cuda/11.8.0/ucdhpc-20.04/bin:1:/usr/local/bin:1:/software/slurm/23.02.7/ucdhpc-20.04/bin:1:/software/openmpi/4.1.5/ucdhpc-20.04/bin:1:/software/hwloc/2.9.3/ucdhpc-20.04/bin:1:/software/modules/4.6.1/ucdhpc-20.04//bin:1:/software/slurm/23.02.7/ucdhpc-20.04/sbin:1:/bin:1:/snap/bin:1:/sbin:1:/usr/sbin:1:/usr/games:1:/usr/local/sbin:1:/usr/local/games:1
+PERL5LIB=/software/amber/22/ucdhpc-20.04/lib/perl:/software/amber/22/ucdhpc-20.04/lib/perl:/software/amber/22/ucdhpc-20.04/lib/perl
+PMEMD=/software/amber/22/ucdhpc-20.04/bin/pmemd.cuda
+PMIX_BFROP_BUFFER_TYPE=PMIX_BFROP_BUFFER_NON_DESC
+PMIX_DSTORE_21_BASE_PATH=/var/spool/slurmd/pmix.679987.0//pmix_dstor_ds21_2498519
+PMIX_DSTORE_ESH_BASE_PATH=/var/spool/slurmd/pmix.679987.0//pmix_dstor_ds12_2498519
+PMIX_GDS_MODULE=ds21,ds12,hash
+PMIX_HOSTNAME=sapphire-0
+PMIX_NAMESPACE=slurm.pmix.679987.0
+PMIX_RANK=0
+PMIX_SECURITY_MODE=munge,native
+PMIX_SERVER_TMPDIR=/var/spool/slurmd/pmix.679987.0/
+PMIX_SERVER_URI21=pmix-server.2498519;tcp4://127.0.0.1:38935
+PMIX_SERVER_URI2=pmix-server.2498519;tcp4://127.0.0.1:38935
+PMIX_SERVER_URI3=pmix-server.2498519;tcp4://127.0.0.1:38935
+PMIX_SERVER_URI41=pmix-server.2498519;tcp4://127.0.0.1:38935
+PMIX_SERVER_URI4=pmix-server.2498519;tcp4://127.0.0.1:38935
+PMIX_SYSTEM_TMPDIR=/tmp
+PMIX_VERSION=4.2.6
+PROPAGATION_DEBUG=1
+PWD=/home/anugraha/pargamd_openmm/ParGaMD/traj_segs/000002/000000
+PYTHONPATH=/software/amber/22/ucdhpc-20.04/lib/python3.11/site-packages:/software/amber/22/ucdhpc-20.04/lib/python3.11/site-packages:/software/amber/22/ucdhpc-20.04/lib/python3.11/site-packages
+QUICK_BASIS=/software/amber/22/ucdhpc-20.04/AmberTools/src/quick/basis
+ROCR_VISIBLE_DEVICES=0
+SEG_DEBUG=1
+SHELL=/bin/bash
+SHLVL=2
+SIM_NAME=ParGaMD
+SLURMD_DEBUG=2
+SLURMD_NODENAME=sapphire-0
+SLURM_CLUSTER_NAME=hpc2
+SLURM_CONF=/software/slurm/23.02.7/ucdhpc-20.04/etc/slurm.conf
+SLURM_CPUS_ON_NODE=64
+SLURM_CPUS_PER_TASK=64
+SLURM_CPU_BIND=quiet,mask_cpu:0x0005FFFC0000FFFF0005FFFC0000FFFF
+SLURM_CPU_BIND_LIST=0x0005FFFC0000FFFF0005FFFC0000FFFF
+SLURM_CPU_BIND_TYPE=mask_cpu:
+SLURM_CPU_BIND_VERBOSE=quiet
+SLURM_DISTRIBUTION=cyclic
+SLURM_GPUS_ON_NODE=1
+SLURM_GTIDS=0
+SLURM_JOBID=679987
+SLURM_JOB_ACCOUNT=ahnlab
+SLURM_JOB_CPUS_PER_NODE=64
+SLURM_JOB_END_TIME=1738187222
+SLURM_JOB_GID=1925957
+SLURM_JOB_GPUS=3
+SLURM_JOB_ID=679987
+SLURM_JOB_NAME=gamd_run
+SLURM_JOB_NODELIST=sapphire-0
+SLURM_JOB_NUM_NODES=1
+SLURM_JOB_PARTITION=gpu-ahn
+SLURM_JOB_QOS=normal
+SLURM_JOB_START_TIME=1737755222
+SLURM_JOB_UID=1925957
+SLURM_JOB_USER=anugraha
+SLURM_LAUNCH_NODE_IPADDR=172.27.192.244
+SLURM_LOCALID=0
+SLURM_MEM_PER_CPU=2000
+SLURM_MPI_TYPE=pmix
+SLURM_NNODES=1
+SLURM_NODEID=0
+SLURM_NODELIST=sapphire-0
+SLURM_NODENAME=sapphire-0
+SLURM_NPROCS=1
+SLURM_NTASKS=1
+SLURM_NTASKS_PER_NODE=1
+SLURM_PMIXP_ABORT_AGENT_PORT=37105
+SLURM_PMIX_MAPPING_SERV=(vector,(0,1,1))
+SLURM_PRIO_PROCESS=0
+SLURM_PROCID=0
+SLURM_SRUN_COMM_HOST=172.27.192.244
+SLURM_SRUN_COMM_PORT=37739
+SLURM_STEPID=0
+SLURM_STEP_GPUS=3
+SLURM_STEP_ID=0
+SLURM_STEP_LAUNCHER_PORT=37739
+SLURM_STEP_NODELIST=sapphire-0
+SLURM_STEP_NUM_NODES=1
+SLURM_STEP_NUM_TASKS=1
+SLURM_STEP_TASKS_PER_NODE=1
+SLURM_SUBMIT_DIR=/home/anugraha/pargamd_openmm/ParGaMD
+SLURM_SUBMIT_HOST=hpc2
+SLURM_TASKS_PER_NODE=1
+SLURM_TASK_PID=2498527
+SLURM_TOPOLOGY_ADDR=sapphire-0
+SLURM_TOPOLOGY_ADDR_PATTERN=node
+SLURM_UMASK=0002
+SLURM_WORKING_CLUSTER=hpc2:apo:6817:9984:109
+SRUN_DEBUG=3
+SSH_AUTH_SOCK=/tmp/ssh-BCn5qfVzj7/agent.3648614
+SSH_CLIENT=162.253.182.230 58360 22
+SSH_CONNECTION=162.253.182.230 58360 169.237.166.103 22
+SSH_TTY=/dev/pts/159
+SUMO_HOME=/usr/share/sumo
+TERM=xterm
+TMPDIR=/tmp
+USER=anugraha
+USE_LOCAL_SCRATCH=1
+WEST_CURRENT_ITER=2
+WEST_CURRENT_SEG_DATA_REF=/home/anugraha/pargamd_openmm/ParGaMD/traj_segs/000002/000000
+WEST_CURRENT_SEG_ID=0
+WEST_CURRENT_SEG_INITPOINT_TYPE=SEG_INITPOINT_CONTINUES
+WEST_JOBID=679987
+WEST_PARENT_DATA_REF=/home/anugraha/pargamd_openmm/ParGaMD/traj_segs/000001/000001
+WEST_PARENT_ID=1
+WEST_PCOORD_RETURN=/tmp/tmpddjzeyqh
+WEST_RAND128=194316889465881951789453969500275215097
+WEST_RAND16=35584
+WEST_RAND32=2600357630
+WEST_RAND64=6034982402306772605
+WEST_RANDFLOAT=0.134791061682783
+WEST_SIM_ROOT=/home/anugraha/pargamd_openmm/ParGaMD
+WM_PROCESS_INDEX=31
+WM_ZMQ_MASTER_HEARTBEAT=100
+WM_ZMQ_TIMEOUT_FACTOR=300
+WM_ZMQ_WORKER_HEARTBEAT=100
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+ZE_AFFINITY_MASK=0
+_=/usr/bin/env
+_CE_CONDA=
+_CE_M=
+_LMFILES_=/software/modules/4.6.1/ucdhpc-20.04/modulefiles/cuda/11.8.0:/software/modules/4.6.1/ucdhpc-20.04/modulefiles/slurm/23.02.7:/software/modules/4.6.1/ucdhpc-20.04/modulefiles/hwloc/2.9.3:/software/modules/4.6.1/ucdhpc-20.04/modulefiles/libevent/2.1.12-stable:/software/modules/4.6.1/ucdhpc-20.04/modulefiles/ucx/1.14.1:/software/modules/4.6.1/ucdhpc-20.04/modulefiles/pmix/4.2.6:/software/modules/4.6.1/ucdhpc-20.04/modulefiles/openmpi/4.1.5:/software/modules/4.6.1/ucdhpc-20.04/modulefiles/amber/22
+_LMFILES__modshare=/software/modules/4.6.1/ucdhpc-20.04/modulefiles/amber/22:1:/software/modules/4.6.1/ucdhpc-20.04/modulefiles/cuda/11.8.0:1:/software/modules/4.6.1/ucdhpc-20.04/modulefiles/hwloc/2.9.3:1:/software/modules/4.6.1/ucdhpc-20.04/modulefiles/libevent/2.1.12-stable:1:/software/modules/4.6.1/ucdhpc-20.04/modulefiles/ucx/1.14.1:1:/software/modules/4.6.1/ucdhpc-20.04/modulefiles/slurm/23.02.7:1:/software/modules/4.6.1/ucdhpc-20.04/modulefiles/pmix/4.2.6:1:/software/modules/4.6.1/ucdhpc-20.04/modulefiles/openmpi/4.1.5:1
+}
+}
+}
++ nvidia-smi
+Fri Jan 24 21:50:11 2025       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.216.01             Driver Version: 535.216.01   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA A100-SXM4-80GB          Off | 00000000:81:00.0 Off |                    0 |
+| N/A   27C    P0              84W / 500W |     39MiB / 81920MiB |      0%      Default |
+|                                         |                      |             Disabled |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|    0   N/A  N/A   2498028      C   nvidia-cuda-mps-server                       30MiB |
++---------------------------------------------------------------------------------------+
++ python -c 'import openmm; print('\''OpenMM version:'\'', openmm.__version__)'
+OpenMM version: 7.7
+++ nvidia-smi --list-gpus
+++ wc -l
++ AVAILABLE_GPUS=1
++ '[' 1 -eq 0 ']'
++ '[' -z 0 ']'
++ CUDA_DEVICES=($(echo $CUDA_VISIBLE_DEVICES_ALLOCATED | tr ',' ' '))
+++ echo 0
+++ tr , ' '
++ NUM_DEVICES=1
++ '[' 1 -eq 0 ']'
++ DEVICE_INDEX=0
++ export CUDA_VISIBLE_DEVICES=0
++ CUDA_VISIBLE_DEVICES=0
++ echo 'Assigned GPU: 0 for WM_PROCESS_INDEX: 31 (out of 1 GPUs)'
+Assigned GPU: 0 for WM_PROCESS_INDEX: 31 (out of 1 GPUs)
++ mkdir -pv /home/anugraha/pargamd_openmm/ParGaMD/traj_segs/000002/000000
++ cd /home/anugraha/pargamd_openmm/ParGaMD/traj_segs/000002/000000
++ ln -sfv /home/anugraha/pargamd_openmm/ParGaMD/common_files/chignolin.prmtop .
+'./chignolin.prmtop' -> '/home/anugraha/pargamd_openmm/ParGaMD/common_files/chignolin.prmtop'
++ ln -sfv /home/anugraha/pargamd_openmm/ParGaMD/common_files/gamd-restart.dat .
+'./gamd-restart.dat' -> '/home/anugraha/pargamd_openmm/ParGaMD/common_files/gamd-restart.dat'
++ ln -sfv /home/anugraha/pargamd_openmm/ParGaMD/common_files/upper_dual_temp.xml .
+'./upper_dual_temp.xml' -> '/home/anugraha/pargamd_openmm/ParGaMD/common_files/upper_dual_temp.xml'
++ ln -sfv /home/anugraha/pargamd_openmm/ParGaMD/common_files/chignolin.rst .
+'./chignolin.rst' -> '/home/anugraha/pargamd_openmm/ParGaMD/common_files/chignolin.rst'
++ sed -i 's|<directory>.*</directory>|<directory>.</directory>|' upper_dual_temp.xml
++ '[' 2 -eq 1 ']'
++ echo 'Subsequent iteration - using parent checkpoint'
+Subsequent iteration - using parent checkpoint
++ cp -v /home/anugraha/pargamd_openmm/ParGaMD/traj_segs/000001/000001/gamd_restart.checkpoint ./gamd_restart.checkpoint
+'/home/anugraha/pargamd_openmm/ParGaMD/traj_segs/000001/000001/gamd_restart.checkpoint' -> './gamd_restart.checkpoint'
+++ pwd
++ echo 'Current directory: /home/anugraha/pargamd_openmm/ParGaMD/traj_segs/000002/000000'
+Current directory: /home/anugraha/pargamd_openmm/ParGaMD/traj_segs/000002/000000
+++ '[' -w . ']'
+++ echo yes
++ echo 'Directory exists and is writable: yes'
+Directory exists and is writable: yes
++ echo 'XML contents after modification:'
+XML contents after modification:
++ cat upper_dual_temp.xml
+<?xml version="1.0"?>
+<gamd>
+    <production-only>true</production-only>
+    <temperature>300</temperature>
+    <system>
+        <nonbonded-method>CutoffNonPeriodic</nonbonded-method>
+        <nonbonded-cutoff>9999</nonbonded-cutoff>
+        <constraints>HBonds</constraints>
+    </system>
+    <run-minimization>True</run-minimization>
+    <integrator>
+        <algorithm>langevin</algorithm>
+        <boost-type>upper-dual</boost-type>
+        <sigma0>
+            <primary>6.0</primary>
+            <secondary>6.0</secondary>
+        </sigma0>
+        <random-seed>0</random-seed>
+        <dt>0.002</dt>
+        <friction-coefficient>1.0</friction-coefficient>
+        <number-of-steps>
+            <conventional-md-prep>1000</conventional-md-prep>
+            <conventional-md>10000</conventional-md>
+            <gamd-equilibration-prep>1000</gamd-equilibration-prep>
+            <gamd-equilibration>25000</gamd-equilibration>
+            <gamd-production>200000</gamd-production>
+            <extension-steps>5000</extension-steps>
+            <averaging-window-interval>100</averaging-window-interval>
+        </number-of-steps>
+    </integrator>
+    <input-files>
+        <amber>
+            <topology>./chignolin.prmtop</topology>
+            <coordinates type="rst7">./chignolin.rst</coordinates>
+        </amber>
+    </input-files>
+    <outputs>
+        <directory>.</directory>
+        <overwrite-output>true</overwrite-output>
+        <reporting>
+            <energy>
+                <interval>50</interval>
+            </energy>
+            <coordinates>
+                <file-type>DCD</file-type>
+            </coordinates>
+            <statistics>
+                <interval>50</interval>
+            </statistics>
+        </reporting>
+    </outputs>
+</gamd>
++ GAMD_LOG=gamd.log
++ echo 'Starting GaMD simulation...'
+Starting GaMD simulation...
++ tee gamd.log
++ python /home/anugraha/pargamd_openmm/ParGaMD/common_files/gamdRunner -r --restart -p CUDA -d 0 xml upper_dual_temp.xml
+Warning: parameter in XML not found in config. Spelling error? production-only
+Integrator configuration: 5000
+[Restart Mode] Current step = 5000. Overriding nstlim to 10000 using extension-steps=5000.
+Running: 	  5000  steps
+Failure on step 5200
+Particle position is NaN
+stepCount:  5200.0
+windowCount:  0.0
+stage:  2.0
+stageOneIfValueIsZeroOrNegative:  21840000.0
+stageTwoIfValueIsZeroOrNegative:  -20155200.0
+stageThreeIfValueIsZeroOrNegative:  27845800.0
+stageFourIfValueIsZeroOrNegative:  172869800.0
+stageFiveIfValueIsZeroOrNegative:  143044800.0
+Vmax_Dihedral:  nan
+Vmax_Total:  nan
+Vmin_Dihedral:  nan
+Vmin_Total:  nan
+Vavg_Dihedral:  2392.383044078593
+Vavg_Total:  17319446.53399343
+oldVavg_Dihedral:  0.0
+oldVavg_Total:  0.0
+sigmaV_Dihedral:  79.99796012136007
+sigmaV_Total:  13.473644751309921
+M2_Dihedral:  0.0
+M2_Total:  0.0
+wVavg_Dihedral:  0.0
+wVavg_Total:  0.0
+k_Dihedral:  0.0
+k_Total:  0.0
+k0prime_Dihedral:  0.0
+k0prime_Total:  0.0
+k0doubleprime_Dihedral:  0.0
+k0doubleprime_Total:  0.0
+k0doubleprime_window_Dihedral:  0.0
+k0doubleprime_window_Total:  0.0
+boosted_energy_Dihedral:  0.0
+boosted_energy_Total:  0.0
+check_boost_Dihedral:  0.0
+check_boost_Total:  0.0
+threshold_energy_Dihedral:  3288.6139690256437
+threshold_energy_Total:  34639032.83218715
+thermal_energy:  2.494338785445972
+collision_rate:  1.0
+vscale:  0.9980019986673331
+fscale:  0.001998001332666921
+noisescale:  0.09978690801500796
+StartingPotentialEnergy_Dihedral:  nan
+StartingPotentialEnergy_Total:  nan
+ForceScalingFactor_Dihedral:  1.0
+ForceScalingFactor_Total:  1.0
+BoostPotential_Dihedral:  0.0
+BoostPotential_Total:  0.0
+k0_Dihedral:  0.9197764039338001
+k0_Total:  1.0
+sigma0_Total:  25.104
+sigma0_Dihedral:  25.104
++ '[' '!' -f gamd_restart.checkpoint ']'
++ '[' '!' -f output_restart.dcd ']'
++ RMSD_FILE=rmsd_ca.xvg
++ RG_FILE=rg_ca.xvg
++ CPPTRAJ_LOG=cpptraj.log
++ COMMAND='parm chignolin.prmtop\n'
++ COMMAND+='trajin output_restart.dcd\n'
++ COMMAND+='reference /home/anugraha/pargamd_openmm/ParGaMD/common_files/chignolin.pdb\n'
++ COMMAND+='rms rmsd_ca @CA reference out rmsd_ca.xvg mass\n'
++ COMMAND+='radgyr rg_ca @CA out rg_ca.xvg\n'
++ COMMAND+='go\n'
++ cpptraj
++ echo -e 'parm chignolin.prmtop\ntrajin output_restart.dcd\nreference /home/anugraha/pargamd_openmm/ParGaMD/common_files/chignolin.pdb\nrms rmsd_ca @CA reference out rmsd_ca.xvg mass\nradgyr rg_ca @CA out rg_ca.xvg\ngo\n'
++ '[' 0 -ne 0 ']'
++ '[' -f rmsd_ca.xvg ']'
++ '[' -f rg_ca.xvg ']'
+++ awk 'NR>1 {print $2}' rmsd_ca.xvg
++ paste /dev/fd/63 /dev/fd/62
+++ awk 'NR>1 {print $2}' rg_ca.xvg
++ '[' -n 1 ']'
++ head -v /tmp/tmpddjzeyqh
+==> /tmp/tmpddjzeyqh <==
+12017500.0196	12017500.8116
+232931612075483.6250	232931612075485.3750
+246351837108020.3438	246351837108022.3750

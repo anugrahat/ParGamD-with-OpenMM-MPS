@@ -1,0 +1,9 @@
+Warning: parameter in XML not found in config. Spelling error? production-only
+DEBUG: Parsed extension-steps = 0
+Integrator configuration: 0
+DEBUG: Computed total_simulation_length = 20000
+Running: 	  20000  steps
+Start Time: 	 Jan-15-2025    04:52:54
+End Time: 	 Jan-15-2025    04:53:02
+Execution rate for this run:   2857.1428571428573  steps per second.
+Daily execution rate:          493.71428571428584  ns per day.

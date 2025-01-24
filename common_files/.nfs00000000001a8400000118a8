@@ -1,0 +1,8 @@
+Warning: parameter in XML not found in config. Spelling error? production-only
+Integrator configuration: 200000
+[Restart Mode] Current step = 200000. Overriding nstlim to 400000 using extension-steps=200000.
+Running: 	  200000  steps
+Start Time: 	 Jan-23-2025    19:31:13
+End Time: 	 Jan-23-2025    19:32:02
+Execution rate for this run:   4895.833333333333  steps per second.
+Daily execution rate:          846.0  ns per day.

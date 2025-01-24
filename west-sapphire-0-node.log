@@ -1,0 +1,38 @@
+Updating system with the options from the configuration file
+-- WARNING  [westpa.core.propagators.executable] -- could not execute post-iteration program '$WEST_SIM_ROOT/westpa_scripts/post_iter.sh': [Errno 13] Permission denied: '/home/anugraha/pargamd_openmm/ParGaMD/westpa_scripts/post_iter.sh'
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord for Segment 4 from '/tmp/tmpvkfxnt5s': ValueError('progress coordinate data has incorrect shape (3, 2) [expected (100, 2)] Check pcoord.err or seg_logs for more information.')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord for Segment 1 from '/tmp/tmpf165fmei': ValueError('progress coordinate data has incorrect shape (3, 2) [expected (100, 2)] Check pcoord.err or seg_logs for more information.')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord for Segment 2 from '/tmp/tmpdczz2ulw': ValueError('progress coordinate data has incorrect shape (3, 2) [expected (100, 2)] Check pcoord.err or seg_logs for more information.')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord for Segment 3 from '/tmp/tmptoqxs22w': ValueError('progress coordinate data has incorrect shape (3, 2) [expected (100, 2)] Check pcoord.err or seg_logs for more information.')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord for Segment 14 from '/tmp/tmpqvtz3dbr': ValueError('progress coordinate data has incorrect shape (3, 2) [expected (100, 2)] Check pcoord.err or seg_logs for more information.')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord for Segment 10 from '/tmp/tmpxj8my9de': ValueError('progress coordinate data has incorrect shape (3, 2) [expected (100, 2)] Check pcoord.err or seg_logs for more information.')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord for Segment 9 from '/tmp/tmp829m66hg': ValueError('progress coordinate data has incorrect shape (3, 2) [expected (100, 2)] Check pcoord.err or seg_logs for more information.')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord for Segment 11 from '/tmp/tmpnmqn384o': ValueError('progress coordinate data has incorrect shape (3, 2) [expected (100, 2)] Check pcoord.err or seg_logs for more information.')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord for Segment 0 from '/tmp/tmpddjzeyqh': ValueError('progress coordinate data has incorrect shape (3, 2) [expected (100, 2)] Check pcoord.err or seg_logs for more information.')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord for Segment 5 from '/tmp/tmpnh7scgz4': ValueError('progress coordinate data has incorrect shape (4, 2) [expected (100, 2)] Check pcoord.err or seg_logs for more information.')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord for Segment 7 from '/tmp/tmpsgw65v7u': ValueError('progress coordinate data has incorrect shape (3, 2) [expected (100, 2)] Check pcoord.err or seg_logs for more information.')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord for Segment 13 from '/tmp/tmpy8vr8eip': ValueError('progress coordinate data has incorrect shape (3, 2) [expected (100, 2)] Check pcoord.err or seg_logs for more information.')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord for Segment 6 from '/tmp/tmphu6y0im7': ValueError('progress coordinate data has incorrect shape (4, 2) [expected (100, 2)] Check pcoord.err or seg_logs for more information.')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord for Segment 12 from '/tmp/tmpnhu56c43': ValueError('progress coordinate data has incorrect shape (3, 2) [expected (100, 2)] Check pcoord.err or seg_logs for more information.')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord for Segment 8 from '/tmp/tmp4whtjp3v': ValueError('progress coordinate data has incorrect shape (3, 2) [expected (100, 2)] Check pcoord.err or seg_logs for more information.')
+-- ERROR    [westpa.core.propagators.executable] -- could not read pcoord for Segment 15 from '/tmp/tmpxuk2qp3h': ValueError('progress coordinate data has incorrect shape (3, 2) [expected (100, 2)] Check pcoord.err or seg_logs for more information.')
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.29b1f443-e2d5-4607-820a-ea4185826747] -- sending SIGKILL to worker process 2498920
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.4ba9d62b-71b9-4296-bf7a-a75dab529f23] -- sending SIGKILL to worker process 2498765
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.ac9f1989-945e-4201-bf2b-a84834b0ef69] -- sending SIGKILL to worker process 2498787
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.c6cf8d77-e4e8-440c-94e3-172a4aebaab9] -- sending SIGKILL to worker process 2498814
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.228ec3b8-5ad1-4fd0-a642-23e926ad10ab] -- sending SIGKILL to worker process 2498860
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.e0f48892-3566-45b5-a0d5-619eb9d49d8d] -- sending SIGKILL to worker process 2498821
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.318cd231-f72f-4292-a917-9152f8567df1] -- sending SIGKILL to worker process 2498873
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.de609ab3-dfb6-4d36-884e-0d5125c182bb] -- sending SIGKILL to worker process 2498851
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.e5e62e17-b739-4a53-9637-f9f6e4be1238] -- sending SIGKILL to worker process 2498866
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.d080d734-3753-443a-8bfd-9d2af299ba5f] -- sending SIGKILL to worker process 2498901
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.86c6107f-6a8b-419f-acda-2ced2dba4351] -- sending SIGKILL to worker process 2498731
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 2498710
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 2498725
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 2498730
+-- WARNING  [westpa.work_managers.zeromq.core] -- sending SIGKILL to worker process 2498764
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.d1eb4641-3657-48e9-b4cc-d854c6cb23a4] -- sending SIGKILL to worker process 2498842
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.8c2bf22b-6721-4e68-8922-750630f4d1f9] -- sending SIGKILL to worker process 2498835
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.08b7ccbc-fc9e-4032-b65d-d078187f4b1e] -- sending SIGKILL to worker process 2498788
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.226e8667-7b0e-4dfb-8680-21f931ccc85b] -- sending SIGKILL to worker process 2498894
+-- WARNING  [westpa.work_managers.zeromq.core.ZMQWorker.01463226-3bd0-4e95-aa69-8e9ccd1fe611] -- sending SIGKILL to worker process 2498878
