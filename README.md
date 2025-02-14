@@ -1,4 +1,4 @@
-# ParGaMD: Parallelizable Gaussian Accelerated Molecular Dynamics
+# ParGaMD: Parallelizable Gaussian Accelerated Molecular Dynamics in OpenMM
 
 ParGaMD combines Gaussian Accelerated MD (GaMD) with a Weighted Ensemble (WE) approach and **multiprocess streaming (MPS)** for faster sampling of protein conformational space.
 
